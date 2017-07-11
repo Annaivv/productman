@@ -11,7 +11,8 @@ body{
 
 .header{
   max-height: 190px;
-  margin: 48px 150px 105px 150px;
+  margin: 81px 150px 105px 40px;
+  letter-spacing: 1.2px;
   font-size: 0;
 }
 
@@ -33,9 +34,11 @@ body{
 .nav-items{
   display: inline-block;
   position: relative;
-  left: 574px;
+  left: 848px;
+  top: -10px;
   vertical-align: top;
   padding-top: 64px;
+  letter-spacing: 0.37px;
 }
 
   .navigation-item{
@@ -64,12 +67,15 @@ body{
       font-family: Raleway;
       color:  #303030;
       font-size: 150px;
+      text-transform: uppercase;
       font-weight: 900;
       line-height: 150px;
       text-align: right;
       width: 618px;
-      margin-top: 19px;
-      margin-bottom: 53px;
+      margin-top: -13px;
+      margin-bottom: 14px;
+      margin-left: 41px;
+      letter-spacing: 2.5px;
     }
 
     .slider-description{
@@ -80,12 +86,18 @@ body{
       line-height: 36px;
       text-align: right;
       width: 618px;
+      margin-top: 22px;
+      margin-left: 45px;
+      margin-bottom: 13px;
+      letter-spacing: 0.77px;
     }
 
     .link-tp-container{
       text-align: right;
       width: 618px;
       margin-right: 0;
+      margin-left: 40px;
+      letter-spacing: 0.6px;
     }
 
     .slider-link-to-products{
@@ -102,7 +114,8 @@ body{
     .slider-image{
       display: inline-block;
       position: relative;
-      left: 98px;
+      left: 103px;
+      top: -29px;
       vertical-align: top;
       text-decoration: none;
       max-width: 365px;
