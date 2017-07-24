@@ -122,14 +122,256 @@ body{
       max-height: 491px;
     }
 
-@font-face{
-  display: inline-block;
-  font-family: 'icomoon';
-  src: url('../fonts/icomoon.woff?ihb4ix') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    .content__box{
+      border-radius: 5px;
+      background-color:  #ffffff;
+      width: 1198px;
+      height: 1193px;
+      margin: 72px;
+      margin-left: 0px;
+    }
 
-  .icon-menu{
+    .content__heading{
+      /*height: 150px;*/
+      font-family: Raleway;
+      color:  #303030;
+      background-color: #fff;
+      border-radius: inherit;
+      margin: 0px;
+      margin-bottom: 18px;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 150px;
+      text-align: center;
+    }
+
+    .content__underline{
+      display: block;
+      width: 213px;
+	    height: 17px;
+      background-color: #fff;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .content__text{
+      width: 551px;
+      height: 42px;
+      margin: 0 auto;
+      margin-top: 12px;
+      margin-bottom: 73px;
+      font-family: Raleway;
+      color:  #303030;
+      background-color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+    }
+
+  .content__images{
+    background-color: #fff;
+    margin: 72px;
+  }
+
+  .content__image{
+    display: inline-block;
+    border-radius: 5px;
+    background-color:  #eeeeee;
+  }
+
+  .content__image:nth-child(3),
+  .content__image:nth-child(4){
+    margin-right: 30px;
+  }
+
+  .content__image:nth-child(n+2){
+    margin-top: 30px;
+  }
+
+    .image__container1{
+      width: 692px;
+      height: 387px;
+      margin-right: 30px;
+    }
+
+    .image__container2{
+      width: 328px;
+      height: 387px;
+
+    }
+
+    .image__container3{
+      width: 328px;
+      height: 387px;
+    }
+
+    .content__image:hover{
+      background-color: #E20008;
+    }
+
+    .image__container4{
+      width: 329px;
+      height: 387px;
+    }
+
+    .image__container5{
+      width: 328px;
+      height: 387px;
+    }
+
+    .footer__heading{
+      height: 36px;
+      font-family: Raleway;
+      color:  #303030;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 150px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 27px;
+      margin-bottom: 99px;
+    }
+
+    .footer__text{
+      display: block;
+      width: 551px;
+      height: 42px;
+      margin: 0 auto;
+      font-family: Raleway;
+      color:  #303030;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .subscribe__form{
+      display: flex;
+      position: relative;
+      width: 772px;
+      height: 70px;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 37px;
+      margin-bottom: 112px;
+      background-color: #fff;
+      border-radius: 50px;
+      }
+
+    .subscribe__field{
+      width: 214px;
+      height: 18px;
+      background-color: #fff;
+    }
+
+      #subscribe{
+        width: 230px;
+        height: 18px;
+        background-color: #fff;
+        font-family: Raleway;
+        color: #979797;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 14px;
+        border: 0px;
+      }
+
+      .subscribe__image{
+        display: inline-block;
+        margin-left: 32px;
+      }
+
+      .button__field{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        background-color: #e10011;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-right: 0px;
+        width: 208px;
+        height: 70px;
+      }
+
+      .button__text{
+        display: block;
+        margin: 29px 44px 28px 56px;
+        background-color: #e10011;
+        border: 0;
+      }
+
+      .button__image{
+        background-color: transparent;
+      }
+
+  .social__icons{
+    display: flex;
+    width: 340px;
+    height: 70px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 65px;
+  }
+
+    .social__icon{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      margin: 0;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+
+      .social__image{
+        background-color: transparent;
+      }
+
+  .copyright__text{
+    display: block;
+    width: 492px;
+    height: 18px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: Raleway;
+    color:  #979797;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+
+    .copyright__name{
+      font-family: Raleway;
+      color:  #303030;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+    }
+
+
+  @font-face {
+      font-family: 'icomoon';
+      src:  url('../fonts/icomoon.eot?ihb4ix');
+      src:  url('../fonts/icomoon.eot?ihb4ix#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ihb4ix') format('truetype'),
+        url('../fonts/icomoon.woff?ihb4ix') format('woff'),
+        url('../fonts/icomoon.svg?ihb4ix#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    [class^="icon-"], [class*=" icon-"] {
+      /* use !important to prevent issues with browser extensions that change fonts */
       font-family: 'icomoon' !important;
       speak: none;
       font-style: normal;
@@ -138,10 +380,11 @@ body{
       text-transform: none;
       line-height: 1;
 
+      /* Better Font Rendering =========== */
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
     .icon-menu:before {
       content: "\e9bd";
-}
+    }
